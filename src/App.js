@@ -31,7 +31,7 @@ class App extends Component {
     })
     return (
       <div className="App">
-        <header className="App-header">
+        <h1>Monsters Rolodex</h1>
           {/*
         anonymous function : 
         () => {
@@ -67,7 +67,6 @@ class App extends Component {
               return <h1 key={monster.id} name = {monster.name}></h1>
             })*/}
           </CardList>
-        </header>
       </div>
     );
   }
